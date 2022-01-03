@@ -15,7 +15,7 @@ h1{
  font-size: 50px;
 }
 
-section{
+.flexbla-container{
  display: flex;
  margin-bottom: 100px;
 }
@@ -58,18 +58,67 @@ background-repeat: no-repeat;
 .drem-img{
 width: 90%;
 padding-left: 30px;
+margin-left: 20px;
 }
 .dream-section{
-margin: 30px;
 background-image: url(images/shape.png);
 background-repeat:no-repeat;
 background-position: right;
-background-size: 100px;
+background-size: 80px;
 }
 .dream-intro{
     margin-left: 30px;
 }
 .dream-p{
-    margin-right: 80px;
+    margin-right: 70px;
     text-align: justify;
+}
+.exprince{
+    background-image: url(images/cer.png);
+     background-repeat: no-repeat;
+   background-size: 120px;
+ 
+
+
+}
+
+.exh1{
+    padding-left:30px;
+    margin-left: 30px;
+}
+.exprince h3{
+    color:orange;
+
+}
+
+.full-stack{
+    background-color: white;
+    padding: 10px;
+    margin: 50px;
+    border-left: 10px solid;
+    border-image:linear-gradient(orange,tomato);
+    border-image-slice: 1;
+    box-shadow: -5px 10px 50px 20px lightgray;
+}
+.baby-dev{
+    background-color: white;
+    padding: 10px;
+    margin: 50px;
+    border-left: 10px solid ;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;     
+    box-shadow: -5px 10px 50px 20px rgb(211, 211, 211);
+}
+
+.ftr{
+ background-image: linear-gradient(orange,tomato);
+margin: 0px;
+padding: 0px;}
+
+.ftr p{
+    text-align: center;
+    font-size: 16px;
+    color:white;
+    font-weight:100px;
+    padding: 20px 0px 20px 0px;
 }
