@@ -24,11 +24,17 @@ section{
     padding-left:20px;
 }
 .helf-width img {
-    width:70%;
+    width:60%;
+    height: 85%;
+    margin: 40px;
     
 }
 .intro{
     font-size: 20px;
+}
+.description{
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 .btn{
     text-decoration: none;
